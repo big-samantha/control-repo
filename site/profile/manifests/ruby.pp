@@ -21,6 +21,6 @@ class profile::ruby {
 
   package { $packages:
     ensure  => present,
-    reqiure => Package[$prereqs],
+    require => Package[$prereqs],
   }
 }
